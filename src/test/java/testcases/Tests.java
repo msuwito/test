@@ -12,7 +12,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
  */
 public class Tests {
 @Test
-    public void navigateToThePage(){
+    public void navigateToThePageTest(){
 
     final SomePageObject navigateToUrl = new SomePageObject();
     navigateToUrl.goToWebsite();
